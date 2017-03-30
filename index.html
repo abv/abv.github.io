@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>-... .-.. .. -. -.-</title>
+  <script src="./tracking.js/tracking-min.js"></script>
+  <script src="./tracking.js/data/eye-min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./main.css" media="all">
+</head>
+<body>
+  <div id="container">
+    <h1>-... .-.. .. -. -.-</h1>
+    <img id="key" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/International_Morse_Code.svg/450px-International_Morse_Code.svg.png" />
+    <div id="right">
+      <div id="vidcontainer">
+        <video id="video" width="480" height="360" preload autoplay loop muted></video>
+        <canvas id="canvas" width="480" height="360"></canvas>
+      </div>
+      <strong>last blink</strong><br>
+      <input id="last_blink">
+      <strong>dots and dashes</strong><br>
+      <input id="dots" />
+      <strong>word</strong><br>
+      <textarea id="word"></textarea>
+      <strong>log</strong><br>
+      <textarea id="log"></textarea>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

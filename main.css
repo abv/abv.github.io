@@ -1,0 +1,9 @@
+h1 {font-size: 60px; text-align: center; }
+#key {float: left; width: 540;}
+#container {width: 930px; margin: 0 auto;}
+#right {float: left; width: 480px;}
+#vidcontainer {position: relative; height: 360px; width: 480px; float: left;}
+#last_blink, #dots {width: 480px; height: 1em; font-size: 22px; float: left; box-sizing: border-box;}
+#word {width: 480px; height: 3em; font-size: 22px; float: left; box-sizing: border-box;}
+#log {width: 480px; height: 600px; font-size: 18px; float: left; box-sizing: border-box;}
+video, canvas { position: absolute; }
